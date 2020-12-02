@@ -3,7 +3,8 @@ const { printWords } = require('./utilities/print.js');
 
 console.log('Bee Tree');
 const index = 3;
-const input = 'iabemnt';
+//const input = 'iabemnt';
+const input = 'ghortuw';
 
 const start0 = Date.now();
 const trie = buildTrie(index);
