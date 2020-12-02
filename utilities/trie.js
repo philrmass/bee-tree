@@ -37,37 +37,46 @@ function addWord(trie, word) {
 
 function matchLetters(trie, letters) {
   const found = [];
-  const queue = [...letters];
-  let i = 0;
-  const steps = 10;
+  const all = letters.split('');
+  const center = all[0];
+  let queue = [...all];
+  let step = 0;
 
-  while (queue.length > 0 && i < steps) {
+  console.log(`matching ${letters}`);
+  while (queue.length > 0) {
     const input = queue.shift();
-    const w = isWord(trie, input);
-    console.log(`${i}> [${input}] (${w})`);
+    const [isValid, isWord] = checkInput(trie, input);
 
-    // if isWord(trie, input) {
-    //   if has first letter
-    //   found.push(input);
-    // } else if isValid(trie, input) {
-    //   queue.push(input + letter) x 7
-    // }
+    if (isWord && input.length >= 4 && input.includes(center)) {
+        found.push(input);
+        console.log(`  FOUND (${input})`);
+    }
 
-    i++;
+    if (isValid) {
+      const nexts = all.map((letter) => input + letter);
+      queue.push(...nexts);
+    }
+
+    step++;
   }
+  console.log(` took ${step} steps`);
 
   return found;
 }
 
-function isValid(trie, input) {
+function checkInput(trie, input) {
+  let node = trie;
+
+  for (let i = 0; i < input.length; i++) {
+    const letter = input[i];
+    node = node[letter];
+    if (!node) {
+      return [false, false];
+    }
+  }
+
+  return [true, Boolean(node.ok)];
 }
 
-function isWord(trie, input) {
-  return false;
-}
-
-// is valid
-// is word
-// if is word & has first letter, put in found
 exports.buildTrie = buildTrie;
 exports.matchLetters = matchLetters;
