@@ -5,6 +5,7 @@ function buildTrie(index) {
   const start = Date.now();
   const words = loadList(path);
   const trie = words.reduce((trie, word) => addWord(trie, word), {});
+  trie.length = words.length;
 
   return trie;
 }
@@ -40,26 +41,20 @@ function matchLetters(trie, letters) {
   const all = letters.split('');
   const center = all[0];
   let queue = [...all];
-  let step = 0;
 
-  console.log(`matching ${letters}`);
   while (queue.length > 0) {
     const input = queue.shift();
     const [isValid, isWord] = checkInput(trie, input);
 
     if (isWord && input.length >= 4 && input.includes(center)) {
         found.push(input);
-        console.log(`  FOUND (${input})`);
     }
 
     if (isValid) {
       const nexts = all.map((letter) => input + letter);
       queue.push(...nexts);
     }
-
-    step++;
   }
-  console.log(` took ${step} steps`);
 
   return found;
 }

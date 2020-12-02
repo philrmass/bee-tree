@@ -1,14 +1,18 @@
 const { buildTrie, matchLetters } = require('./utilities/trie.js');
+const { printWords } = require('./utilities/print.js');
 
 console.log('Bee Tree');
+const index = 3;
+const input = 'iabemnt';
 
-const index = 0;
 const start0 = Date.now();
 const trie = buildTrie(index);
-const json = JSON.stringify(trie);
-console.log(`build (${Date.now() - start0}) [${json.length}]`);
+const time0 = Date.now() - start0;
 
-const input = 'iabemnt';
 const start1 = Date.now();
 const found = matchLetters(trie, input); 
-console.log(`match t=${Date.now() - start1} [${found}]`);
+const time1 = Date.now() - start1;
+
+console.log(` built trie${index} in ${time0} ms (${trie.length} words)`);
+console.log(` matched ${found.length} words in ${time1} ms`);
+console.log(printWords(found));
