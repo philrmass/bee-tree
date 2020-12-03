@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 function buildTrie(index) {
-  const path = `data/list${index}.txt`;
+  const path = `lists/list${index}.txt`;
   const start = Date.now();
   const words = loadList(path);
   const trie = words.reduce((trie, word) => addWord(trie, word), {});
