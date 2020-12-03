@@ -1,7 +1,7 @@
 # Tasks
-- copy 3 into a new list 0
+- save trie as json (compare size vs word list size);
+- load trie as json
 - sort printout by input, pangram, sorted to match ny times
-- add an interactive mode with input
-- build
-- change check input to use a reducer
-- change tree creation to use a reducer
+- move match into utilities/game
+- add an interactive mode (play, build, test, step)
+- change all to be functional

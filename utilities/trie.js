@@ -1,21 +1,7 @@
 const fs = require('fs');
 
-function buildTrie(index) {
-  const path = `lists/list${index}.txt`;
-  const start = Date.now();
-  const words = loadList(path);
-  const trie = words.reduce((trie, word) => addWord(trie, word), {});
-  trie.length = words.length;
-
-  return trie;
-}
-
-function loadList(path) {
-  const data = fs.readFileSync(path, 'utf8');
-  const lines = data.split('\n').map((line) => line.trim());
-  const words = lines.filter((line) => line.length > 0);
-
-  return words;
+function buildTrie(words) {
+  return words.reduce((trie, word) => addWord(trie, word), {});
 }
 
 function addWord(trie, word) {
