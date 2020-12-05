@@ -1,4 +1,6 @@
-function printWords(words) {
+function printWords(words, game) {
+  words.sort();
+
   const max = words.reduce((max, word) => word.length > max ? word.length : max, 0);
   const spaced = words.map((word) => word.padEnd(max + 1, ' '));
   return spaced.reduce((str, word, index) => {

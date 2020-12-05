@@ -1,5 +1,4 @@
 # Tasks
-- load trie as json
 - sort words, pangrams first, print in columns 7 high
 - improve trie/addWord
 - improve trie/testTrie

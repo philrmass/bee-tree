@@ -25,7 +25,19 @@ function saveTrie(trie, path) {
   }
 }
 
+function loadTrie(path) {
+  try {
+    if (fs.existsSync(path)) {
+      const data = fs.readFileSync(path, 'utf8');
+      return JSON.parse(data);
+    }
+  } catch (error) {
+    console.error('loadTrie', error);
+  }
+}
+
 exports.getListPath = getListPath;
 exports.getTriePath = getTriePath;
 exports.loadWords = loadWords;
 exports.saveTrie = saveTrie;
+exports.loadTrie = loadTrie;

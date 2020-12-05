@@ -4,6 +4,7 @@ const {
   getTriePath,
   loadWords,
   saveTrie,
+  loadTrie,
 } = require('./utilities/input.js');
 const { printWords } = require('./utilities/print.js');
 const { buildTrie } = require('./utilities/trie.js');
@@ -30,16 +31,17 @@ if (cmd === 'b' && input0) {
   index = input1 || index;
 
   console.log(`Play ${game} with trie${index}`);
-  //??? load the trie, or build and save if undefined
-  const words = loadWords(getListPath(index));
-  const trie = buildTrie(words);
-  saveTrie(trie, getTriePath(index));
-
+  let trie = loadTrie(getTriePath(index));
+  if (!trie) {
+    const words = loadWords(getListPath(index));
+    trie = buildTrie(words);
+    saveTrie(trie, getTriePath(index));
+  }
   const found = findWords(trie, game); 
 
   const time = Date.now() - start;
   console.log(` Matched ${found.length} words in ${time} ms`);
-  console.log(printWords(found.sort()));
+  console.log(printWords(found, game));
 } else {
   console.log('huh?');
 }
