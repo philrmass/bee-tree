@@ -1,7 +1,10 @@
 # Tasks
-- save trie as json (compare size vs word list size);
 - load trie as json
-- sort printout by input, pangram, sorted to match ny times
-- move match into utilities/game
-- add an interactive mode (play, build, test, step)
-- change all to be functional
+- sort words, pangrams first, print in columns 7 high
+- improve trie/addWord
+- improve trie/testTrie
+- improve game/findWords to be functional
+- add test operation
+- add add word operation, delete trie
+- add remove word operation, delete trie
+- add step interactive operation

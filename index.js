@@ -1,48 +1,45 @@
-const { matchLetters } = require('./utilities/game.js');
-const { getListPath, loadWords } = require('./utilities/input.js');
+const { findWords } = require('./utilities/game.js');
+const {
+  getListPath,
+  getTriePath,
+  loadWords,
+  saveTrie,
+} = require('./utilities/input.js');
 const { printWords } = require('./utilities/print.js');
 const { buildTrie } = require('./utilities/trie.js');
 
-const index = 3;
-//const input = 'iabemnt';
-const input = 'ghortuw';
-//const input = 'tbilmoy';
-
+console.log('Bee Tree');
 const cmd = process.argv[2];
 const input0 = process.argv[3];
 const input1 = process.argv[4];
 const start = Date.now();
+let index = 0;
 
-console.log('Bee Tree');
+if (cmd === 'b' && input0) {
+  index = input0;
 
-if (cmd === 'b') {
-  console.log('BUILD');
-  //??? delete old trie
-  // build and save trie
+  console.log(`Build trie${index}`);
   const words = loadWords(getListPath(index));
   const trie = buildTrie(words);
-} else if (cmd === 'p') {
-  console.log('PLAY');
-  //??? load, or build and save trie
+  saveTrie(trie, getTriePath(index));
+
+  const time = Date.now() - start;
+  console.log(` Added ${words.length} words in ${time} ms`);
+} else if (cmd === 'p' && input0) {
+  const game = input0;
+  index = input1 || index;
+
+  console.log(`Play ${game} with trie${index}`);
+  //??? load the trie, or build and save if undefined
   const words = loadWords(getListPath(index));
   const trie = buildTrie(words);
-  const time1 = Date.now() - start;
+  saveTrie(trie, getTriePath(index));
 
-  const found = matchLetters(trie, input); 
-  console.log(` matched ${found.length} words in ${time1} ms`);
+  const found = findWords(trie, game); 
+
+  const time = Date.now() - start;
+  console.log(` Matched ${found.length} words in ${time} ms`);
   console.log(printWords(found.sort()));
 } else {
   console.log('huh?');
 }
-
-/*
-const time0 = Date.now() - start0;
-
-const start1 = Date.now();
-const found = matchLetters(trie, input); 
-const time1 = Date.now() - start1;
-
-console.log(` built trie${index} in ${time0} ms (${trie.length} words)`);
-console.log(` matched ${found.length} words in ${time1} ms`);
-console.log(printWords(found.sort()));
-*/

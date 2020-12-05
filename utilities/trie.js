@@ -4,7 +4,6 @@ function buildTrie(words) {
   return words.reduce((trie, word) => addWord(trie, word), {});
 }
 
-//??? use reduce
 function addWord(trie, word) {
   const letters = word.split('');
   let node = trie;
@@ -23,7 +22,7 @@ function addWord(trie, word) {
   return { ...trie };
 }
 
-function checkWithTrie(trie, input) {
+function testTrie(trie, input) {
   let node = trie;
 
   for (let i = 0; i < input.length; i++) {
@@ -38,4 +37,4 @@ function checkWithTrie(trie, input) {
 }
 
 exports.buildTrie = buildTrie;
-exports.checkWithTrie = checkWithTrie;
+exports.testTrie = testTrie;
