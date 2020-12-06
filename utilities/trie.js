@@ -23,17 +23,11 @@ function addWord(trie, word) {
 }
 
 function testTrie(trie, input) {
-  let node = trie;
+  const node = input.split('').reduce((node, letter) => {
+    return node && node[letter];
+  }, trie);
 
-  for (let i = 0; i < input.length; i++) {
-    const letter = input[i];
-    node = node[letter];
-    if (!node) {
-      return [false, false];
-    }
-  }
-
-  return [true, Boolean(node.ok)];
+  return [node, node && node.ok];
 }
 
 exports.buildTrie = buildTrie;
