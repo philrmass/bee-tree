@@ -42,6 +42,8 @@ if (cmd === 'b' && input0) {
   const time = Date.now() - start;
   console.log(` Matched ${found.length} words in ${time} ms`);
   console.log(printWords(found, game));
+} else if (cmd === 't' && input0) {
+  console.log('Test');
 } else {
   console.log('huh?');
 }
