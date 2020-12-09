@@ -3,9 +3,11 @@ const {
   getListPath,
   getPuzzlePath,
   getTriePath,
+  saveWords,
   loadWords,
   saveTrie,
   loadTrie,
+  removeTrie,
 } = require('./utilities/input.js');
 const { printWords, printColumns } = require('./utilities/print.js');
 const { buildTrie } = require('./utilities/trie.js');
@@ -69,13 +71,14 @@ if (cmd === 'b' && input0) {
   console.log(`\n Found ${add.length} words to add to the list\n${printWords(add, '  ')}`);
   console.log(`\n Found ${remove.length} words to remove from the list\n${printWords(remove, '  ')}`);
 
-  //??? yes or no for add/remove
-  //delete trie
-  //getWords from list
-  //filter remove words
-  //add new words
-  //sort
-  //saveList
+  //??? Should the list be updated? y for yes
+  //if (input === 'y')
+  //  removeTrie(getTriePath(index));
+  //  const words = loadWords(getListPath(index));
+  //  const filtered = words.filter((word) => !remove.includes(word));
+  //  const all = [...filtered, ...add];
+  //  saveWords(all.sort(), getListPath(index)); ??? implement this
+  //  ??? fix printout to not have 2 spaces if lists are blank
 } else {
   console.log(`Huh? [${cmd}, ${input0}, ${input1}]`);
 }

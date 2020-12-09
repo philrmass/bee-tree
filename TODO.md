@@ -1,2 +1,5 @@
 # Tasks
-- add and remove words by comparing to puzzle solutions, delete trie.json
+- implement save words
+- update list on y input
+- fix prinout to not have blank lines on empty lists
+- fix print words to take number of columns, remove other function

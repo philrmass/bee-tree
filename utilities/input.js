@@ -12,6 +12,10 @@ function getTriePath(index) {
   return `tries/trie${index}.json`;
 }
 
+function saveWords(words, path) {
+  console.log('SAVE-WORDS', path);
+}
+
 function loadWords(path) {
   const data = fs.readFileSync(path, 'utf8');
   const lines = data.split('\n').map((line) => line.trim());
@@ -40,9 +44,14 @@ function loadTrie(path) {
   }
 }
 
+function removeTrie(path) {
+}
+
 exports.getListPath = getListPath;
 exports.getPuzzlePath = getPuzzlePath;
 exports.getTriePath = getTriePath;
+exports.saveWords = saveWords;
 exports.loadWords = loadWords;
 exports.saveTrie = saveTrie;
 exports.loadTrie = loadTrie;
+exports.removeTrie = removeTrie;
