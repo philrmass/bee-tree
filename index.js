@@ -72,16 +72,18 @@ if (cmd === 'b' && input0) {
   console.log(`\n Found ${add.length} words to add to the list\n${printWords(add, '  ')}`);
   console.log(`\n Found ${remove.length} words to remove from the list\n${printWords(remove, '  ')}`);
 
-  ask('\nShould the list be updated? (y to save) ').then((answer) => {
-    if (answer === 'y') {
-      console.log('I WILL SAVE');
-      const words = loadWords(getListPath(index));
-      const filtered = words.filter((word) => !remove.includes(word));
-      const all = [...filtered, ...add];
-      saveWords(all.sort(), getListPath(index));
-      removeTrie(getTriePath(index));
-    }
-  });
+  if (add.length > 0 || remove.length > 0) {
+    ask('\nShould the list be updated? (y to save) ').then((answer) => {
+      if (answer === 'y') {
+        const words = loadWords(getListPath(index));
+        const filtered = words.filter((word) => !remove.includes(word));
+        const all = [...filtered, ...add];
+        saveWords(all.sort(), getListPath(index));
+        removeTrie(getTriePath(index));
+        console.log(`Added ${add.length} and removed ${remove.length} words from list${index}`);
+      }
+    });
+  }
 } else {
   console.log(`Huh? [${cmd}, ${input0}, ${input1}]`);
 }
