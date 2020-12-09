@@ -4,6 +4,10 @@ function getListPath(index) {
   return `lists/list${index}.txt`;
 }
 
+function getPuzzlePath(index) {
+  return `puzzles/puzzle${index}.txt`;
+}
+
 function getTriePath(index) {
   return `tries/trie${index}.json`;
 }
@@ -37,6 +41,7 @@ function loadTrie(path) {
 }
 
 exports.getListPath = getListPath;
+exports.getPuzzlePath = getPuzzlePath;
 exports.getTriePath = getTriePath;
 exports.loadWords = loadWords;
 exports.saveTrie = saveTrie;

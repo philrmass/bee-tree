@@ -1,4 +1,14 @@
-function printWords(words, game) {
+function printWords(words, start = '') {
+  const max = words.reduce((max, word) => word.length > max ? word.length : max, 0);
+  const spaced = words.map((word) => word.padEnd(max + 1, ' '));
+
+  return spaced.reduce((all, word, index) => {
+    const end = (index % 6 === 5) ? `\n${start}` : '';
+    return all + word + end;
+  }, start);
+}
+
+function printColumns(words, game) {
   words.sort();
   const max = words.reduce((max, word) => word.length > max ? word.length : max, 0);
   const spaced = words.map((word) => word.padEnd(max + 1, ' '));
@@ -21,3 +31,4 @@ function printWords(words, game) {
 }
 
 exports.printWords = printWords;
+exports.printColumns = printColumns;
