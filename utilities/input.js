@@ -13,7 +13,12 @@ function getTriePath(index) {
 }
 
 function saveWords(words, path) {
-  console.log('SAVE-WORDS', path);
+  try {
+    const data = words.join('\n');
+    fs.writeFileSync(path, data);
+  } catch (error) {
+    console.error('saveWords', error);
+  }
 }
 
 function loadWords(path) {
@@ -45,6 +50,25 @@ function loadTrie(path) {
 }
 
 function removeTrie(path) {
+  try {
+    fs.unlinkSync(path)
+  } catch (error) {
+    console.error('removeTrie', error);
+  }
+}
+
+function ask(question) {
+  const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  return new Promise((resolve) => {
+    readline.question(question, (answer) => {
+      readline.close();
+      resolve(answer);
+    });
+  });
 }
 
 exports.getListPath = getListPath;
@@ -55,3 +79,4 @@ exports.loadWords = loadWords;
 exports.saveTrie = saveTrie;
 exports.loadTrie = loadTrie;
 exports.removeTrie = removeTrie;
+exports.ask = ask;
