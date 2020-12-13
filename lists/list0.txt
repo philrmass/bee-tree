@@ -1594,7 +1594,6 @@ aggrieve
 aggrieved
 aggro
 aggroup
-aghan
 aghast
 aghast(p)
 agianst
@@ -1833,7 +1832,6 @@ alacritous
 alacrity
 alacritywant
 aladdin
-alalia
 alameda
 alamo
 alanine
@@ -1995,7 +1993,6 @@ algorism
 algorithm
 algorithmic
 alguazil
-alia
 alias
 alibi
 alid
@@ -2035,6 +2032,7 @@ aliquot
 alisma
 alismataceae
 alismatidae
+alit
 aliter
 aliterate
 alitur
@@ -2077,7 +2075,6 @@ all-victorious
 all-weather
 alla
 allabsorbing
-allah
 allamanda
 allantoic
 allantois
@@ -5040,7 +5037,6 @@ attic
 attica
 atticism
 atticus
-attila
 attire
 attitude
 attitudes
@@ -13084,7 +13080,6 @@ coincidentally
 coiner
 coins
 coinsurance
-coir
 coistril
 coital
 coition
@@ -14709,7 +14704,6 @@ corking
 corkscreq
 corkscrew
 corkwood
-corm
 cormorant
 cormous
 corn
@@ -14987,7 +14981,6 @@ couch
 couchant
 couchant(ip)
 couchette
-coucicouci
 cougar
 cough
 could
@@ -15106,7 +15099,6 @@ couples
 couplet
 coupling
 coupon
-cour
 courage
 courageous
 courant
@@ -15552,9 +15544,11 @@ croaking
 croat
 croatia
 croatian
+croc
 crocethia
 crochet
 crocheting
+croci
 crock
 crockery
 crocket
@@ -18378,7 +18372,6 @@ dingo
 dingus
 dingy
 dining
-dininghall
 dinka
 dinky
 dinmont
@@ -24560,6 +24553,7 @@ fob
 focal
 focalization
 focally
+foci
 focis
 focus
 focused
@@ -24631,7 +24625,6 @@ folly
 foment
 fomentation
 fomes
-fomor
 fonctionnaire
 fond
 fond(p)
@@ -24925,7 +24918,6 @@ fornication
 fornicator
 fornicatress
 fornix
-foro
 forsake
 forsaken
 forsaking
@@ -25367,6 +25359,7 @@ frothy
 frottage
 frotteur
 froude
+froufrou
 frounce
 frouzy
 frow
@@ -25523,7 +25516,6 @@ fumigate
 fumigation
 fuming
 fumitory
-fumo
 fun
 funambulist
 function
@@ -25727,7 +25719,6 @@ galactic
 galactose
 galactosis
 galago
-galahad
 galan
 galangal
 galantine
@@ -25858,8 +25849,6 @@ gamp
 gamut
 gamy
 gander
-gandhi
-gandhian
 ganesa
 gang
 ganger
@@ -26380,9 +26369,6 @@ gf
 gfront
 gg
 gh
-ghana
-ghanaian
-ghanian
 gharry
 gharrywallah
 ghastliness
@@ -26454,7 +26440,6 @@ gilbertine
 gild
 gilded
 gilder
-gildhall
 gilding
 gilead
 giles
@@ -27934,7 +27919,6 @@ hackneyed
 hacksaw
 hackwork
 had
-hadal
 haddock
 hadean
 hades
@@ -27977,17 +27961,17 @@ haggard
 haggardly
 haggis
 haggle
+haggling
 hagiographa
 hagiography
 hagiolatry
 hagiology
 haguebut
-haha
-haida
 haifa
 haik
 haiku
 hail
+hailing
 hailstone
 hailstorm
 hair
@@ -28021,6 +28005,7 @@ hajji
 hake
 hakea
 hakka
+halal
 halberd
 halberdier
 halchidhoma
@@ -28197,6 +28182,7 @@ handicraft
 handicraftsman
 handily
 handiness
+handing
 handiwork
 handkerchief
 handle
@@ -28249,7 +28235,6 @@ hangnail
 hangover
 hangs
 hangzhou
-hani
 hank
 hanker
 hankering
@@ -29307,7 +29292,6 @@ highway
 highwayman
 highways
 highwrought
-higi
 hijack
 hijacking
 hike
@@ -29318,6 +29302,7 @@ hilariously
 hilarity
 hill
 hillbilly
+hilling
 hillock
 hills
 hillside
@@ -29333,7 +29318,6 @@ himantoglossum
 himantopus
 himself
 hin
-hinan
 hinayana
 hinayanist
 hinc
@@ -29346,7 +29330,6 @@ hindering
 hindermost
 hindfoot
 hindgut
-hindi
 hindmost
 hindquarter
 hindquarters
@@ -29358,6 +29341,7 @@ hinduism
 hindustan
 hindustani
 hinge
+hinging
 hinny
 hint
 hip
@@ -30707,7 +30691,6 @@ ill-natured
 ill-proportioned
 ill-sorted
 ill-timed(a)
-illa
 illadvised
 illaffected
 illampu
@@ -30803,6 +30786,7 @@ illustrious
 illustriously
 illustriousness
 illwill
+illy
 illyria
 illyrian
 ilmenite
@@ -33277,7 +33261,6 @@ italian
 italian-speaking
 italic
 italics
-italy
 itch
 itching
 item
@@ -34665,7 +34648,6 @@ laird
 lais
 laisse
 laisser
-lait
 laity
 lake
 lakefront
@@ -35008,7 +34990,6 @@ latinist
 latino
 latish
 latitancy
-latitat
 latitation
 latitude
 latitudinal
@@ -35030,7 +35011,6 @@ latterday
 latterly
 lattice
 latuit
-latvia
 latvian
 laud
 laudable
@@ -35116,7 +35096,6 @@ layby
 layer
 layered
 layette
-layia
 laying
 layman
 layoff
@@ -35803,8 +35782,6 @@ lilith
 lilium
 lilliput
 lilliputian
-lilly
-lilo
 lilongwe
 lilt
 lilting
@@ -36136,7 +36113,6 @@ livonian
 livor
 livraison
 livret
-livy
 lixiviate
 lixiviation
 lixivium
@@ -38917,6 +38893,7 @@ microelectronic
 microelectronics
 microfiche
 microfilm
+microform
 microfossil
 microgamete
 microgauss
@@ -39304,7 +39281,6 @@ mirage
 mire
 miri
 miridae
-miro
 mirounga
 mirror
 mirrored
@@ -40092,12 +40068,10 @@ morganite
 morgantown
 morgen
 morgue
-mori
 moribund
 morient
 morion
 morisco
-mormo
 mormon
 mormonism
 morn
@@ -40344,7 +40318,6 @@ muckraker
 muckworm
 mucky
 mucoid
-mucor
 mucoraceae
 mucorales
 mucosity
@@ -40518,7 +40491,6 @@ muntiacus
 muntingia
 muntjac
 muon
-muori
 muove
 muraenidae
 mural
@@ -41562,7 +41534,6 @@ nigrescent
 nigrification
 nigroporus
 nihau
-nihil
 nihilism
 nihilist
 nihilistic
@@ -42712,7 +42683,6 @@ ochotona
 ochotonidae
 ochreous
 ochroma
-ocimum
 oclock
 ocotillo
 octagon
@@ -42848,7 +42818,6 @@ officialese
 officialism
 officially
 officiate
-officio
 officious
 officiously
 officiousness
@@ -42866,7 +42835,6 @@ offspring
 offstage
 offuscate
 offuscation
-ofiform
 oflove
 ofmake
 ofo
@@ -43705,7 +43673,6 @@ otherwise
 othewisp
 othodox
 othonna
-otia
 otic
 otides
 otididae
@@ -52545,7 +52512,6 @@ rim
 rime
 rimer
 rimfire
-rimiform
 rimless
 rimmed
 rimose
@@ -52717,7 +52683,6 @@ rockslide
 rockweed
 rocky
 rococo
-rocroi
 rod
 rod-shaped
 rodent
@@ -52788,6 +52753,7 @@ romanticism
 romanticist
 romanus
 romany
+romcom
 rome
 romeo
 romish
@@ -52852,7 +52818,6 @@ ropy
 roquefort
 roquelaure
 roral
-roric
 rorid
 roridula
 roridulaceae
@@ -60703,7 +60668,7 @@ talentlessness
 talents
 tales
 talesman
-talia
+tali
 talinum
 talionic
 talionis
@@ -62189,7 +62154,6 @@ tilde
 tile
 tiled
 tilefish
-tilia
 tiliaceae
 tiling
 tiliomycetes
@@ -62373,7 +62337,6 @@ titubation
 titular
 titus
 tiu
-tivoli
 tizzy
 tj
 tk
@@ -66649,7 +66612,6 @@ vague
 vaguely
 vagueness
 vagus
-vail
 vain
 vaincre
 vainglorious
@@ -66690,7 +66652,6 @@ valetudinarianism
 valetudinary
 valgono
 valhalla
-vali
 valiant
 valiantly
 valid
@@ -67353,9 +67314,7 @@ vigor
 vigorous
 vigorously
 vii
-viii
 viking
-vila
 vile
 vilely
 vileness
@@ -67374,7 +67333,6 @@ villany
 villein
 villeinage
 villenage
-villi
 villian
 villify
 villous
@@ -67551,7 +67509,6 @@ visualizer
 visually
 visum
 visus
-vita
 vitaceae
 vitae
 vital
@@ -67569,7 +67526,6 @@ vitamin
 vitant
 vitare
 vitharr
-vitia
 vitiate
 vitiated
 vitiation
@@ -67594,7 +67550,6 @@ vituperation
 vituperative
 vituperator
 vituss
-viva
 viva-voce
 vivace
 vivacious
@@ -67621,7 +67576,6 @@ vivimus
 viviparous
 vivisection
 vivisectionist
-vivit
 vivitque
 vivre
 vivrece
@@ -67667,6 +67621,7 @@ voice
 voiced
 voiceless
 void
+voila
 voile
 voir
 voiturier

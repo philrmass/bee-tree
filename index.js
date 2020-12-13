@@ -1,4 +1,5 @@
 const { findWords, compareLists } = require('./utilities/game.js');
+const { get } = require('./utilities/network.js');
 const {
   getListPath,
   getPuzzlePath,
@@ -10,7 +11,7 @@ const {
   removeTrie,
   ask,
 } = require('./utilities/input.js');
-const { printWords, printColumns } = require('./utilities/print.js');
+const { printWords } = require('./utilities/print.js');
 const { buildTrie } = require('./utilities/trie.js');
 
 function getTrie(index) {
@@ -50,8 +51,8 @@ if (cmd === 'b' && input0) {
   const found = findWords(trie, game); 
 
   const time = Date.now() - start;
-  console.log(` Matched ${found.length} words in ${time} ms`);
-  console.log(printColumns(found, game));
+  console.log(`\n Matched ${found.length} words in ${time} ms`);
+  console.log(printWords(found));
 } else if (cmd === 'u' && input0) {
   const puzzle = input0;
   index = input1 || index;
@@ -68,9 +69,9 @@ if (cmd === 'b' && input0) {
   console.log(` Tested and got ${found.length} words in ${time} ms`);
 
   const [common, add, remove] = compareLists(answers, found);
-  console.log(`\n Found ${common.length} common words\n${printWords(common, '  ')}`);
-  console.log(`\n Found ${add.length} words to add to the list\n${printWords(add, '  ')}`);
-  console.log(`\n Found ${remove.length} words to remove from the list\n${printWords(remove, '  ')}`);
+  console.log(`\n Found ${common.length} common words\n${printWords(common)}`);
+  console.log(` Found ${add.length} words to add to the list\n${printWords(add)}`);
+  console.log(` Found ${remove.length} words to remove from the list\n${printWords(remove)}`);
 
   if (add.length > 0 || remove.length > 0) {
     ask('\nShould the list be updated? (y to save) ').then((answer) => {
@@ -84,6 +85,11 @@ if (cmd === 'b' && input0) {
       }
     });
   }
+} else if (cmd === 'y') {
+  console.log("Get yesterday's answers from NY Times");
+  get('www.nytimes.com/puzzles/spelling-bee').then((data) => {
+    console.log('GOT', data);
+  });
 } else {
   console.log(`Huh? [${cmd}, ${input0}, ${input1}]`);
 }
