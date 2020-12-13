@@ -87,8 +87,10 @@ if (cmd === 'b' && input0) {
   }
 } else if (cmd === 'y') {
   console.log("Get yesterday's answers from NY Times");
-  get('www.nytimes.com/puzzles/spelling-bee').then((data) => {
-    console.log('GOT', data);
+  get('www.nytimes.com', '/puzzles/spelling-bee').then((data) => {
+    console.log(`GOT ${data.length} bytes\n`, data);
+    const find = data.indexOf('Answers');
+    console.log('FIND', find);
   });
 } else {
   console.log(`Huh? [${cmd}, ${input0}, ${input1}]`);
