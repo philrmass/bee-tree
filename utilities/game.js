@@ -61,5 +61,16 @@ function compareLists(list0, list1) {
   return [both, only0, only1];
 }
 
+function countLetters(word) {
+  const letters = word.split('');
+  const all = word.split('').reduce((all, letter) =>  {
+    all[letter] = true;
+    return all;
+  }, {});
+
+  return Object.keys(all).length;
+}
+
 exports.findWords = findWords;
 exports.compareLists = compareLists;
+exports.countLetters = countLetters;

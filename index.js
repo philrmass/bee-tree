@@ -1,4 +1,4 @@
-const { findWords, compareLists } = require('./utilities/game.js');
+const { findWords, compareLists, countLetters } = require('./utilities/game.js');
 const { get } = require('./utilities/network.js');
 const {
   getListPath,
@@ -92,6 +92,20 @@ if (cmd === 'b' && input0) {
     const find = data.indexOf('Answers');
     console.log('FIND', find);
   });
+} else if (cmd === 'l') {
+  index = input0 || index;
+
+  console.log(`Find longest word in list${index}`);
+  const words = loadWords(getListPath(index));
+  words.sort((a, b) => b.length - a.length);
+  console.log(` Loaded ${words.length} words`);
+
+  const limit = 7;
+  const valid = words.filter((word) => countLetters(word) <= limit);
+  console.log(` Found ${valid.length} words with ${limit} or fewer letters`);
+  const show = 30;
+  const print = valid.slice(0, show).reduce((p, w) => p + '  ' + w + '\n', '');
+  console.log(` Longest valid words:\n${print}`);
 } else {
   console.log(`Huh? [${cmd}, ${input0}, ${input1}]`);
 }
