@@ -2,8 +2,8 @@
 import { spawn } from 'node:child_process';
 
 const children = [
-  spawn('yarn', ['-s', 'dev:server'], { stdio: 'inherit' }),
-  spawn('yarn', ['-s', 'dev:client'], { stdio: 'inherit' }),
+  spawn('npm', ['run', '-s', 'dev:server'], { stdio: 'inherit' }),
+  spawn('npm', ['run', '-s', 'dev:client'], { stdio: 'inherit' }),
 ];
 
 function stop() {
