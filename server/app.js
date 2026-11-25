@@ -3,6 +3,7 @@ import { HTTPException } from 'hono/http-exception';
 import { findWords, compareLists } from '../utilities/solver.js';
 import { LIST_NAMES, DEFAULT_LIST } from './config.js';
 import { nyDate } from './time.js';
+import { addPuzzleToLists } from './lists.js';
 
 const LETTER = /^[a-z]$/;
 
@@ -13,14 +14,6 @@ function badRequest(message) {
 function listName(name = DEFAULT_LIST) {
   if (!LIST_NAMES.includes(name)) throw badRequest(`unknown list: ${name}`);
   return name;
-}
-
-function wordArray(value) {
-  if (value === undefined) return [];
-  if (!Array.isArray(value) || value.some((w) => typeof w !== 'string' || !/^[a-z]+$/.test(w))) {
-    throw badRequest('words must be an array of lowercase words');
-  }
-  return value;
 }
 
 // center: one letter; outer: 6 distinct letters (string or array) not including center.
@@ -51,6 +44,7 @@ export function createApp({ store, tries, scheduler, git }) {
   // Puzzles
   api.get('/puzzles', async (c) => {
     const puzzles = await store.listPuzzles();
+    const added = new Set(await store.readAdded());
     return c.json(
       puzzles.reverse().map(({ date, center, outer, answers, pangrams }) => ({
         date,
@@ -58,11 +52,29 @@ export function createApp({ store, tries, scheduler, git }) {
         outer,
         count: answers.length,
         pangrams: pangrams.length,
+        added: added.has(date),
       })),
     );
   });
 
   api.get('/puzzles/:date', async (c) => c.json(await requirePuzzle(c.req.param('date'))));
+
+  // Use a puzzle's official answers to update every list (once per puzzle).
+  // Adds run one at a time so list edits never overlap.
+  let addQueue = Promise.resolve();
+  api.post('/puzzles/:date/add', async (c) => {
+    const puzzle = await requirePuzzle(c.req.param('date'));
+    const run = addQueue.then(async () => {
+      if ((await store.readAdded()).includes(puzzle.date)) {
+        throw new HTTPException(409, { message: `${puzzle.date} was already added` });
+      }
+      const lists = await addPuzzleToLists(store, tries, puzzle);
+      await store.markAdded(puzzle.date);
+      return lists;
+    });
+    addQueue = run.catch(() => {});
+    return c.json({ date: puzzle.date, lists: await run });
+  });
 
   api.get('/puzzles/:date/compare', async (c) => {
     const puzzle = await requirePuzzle(c.req.param('date'));
@@ -98,32 +110,23 @@ export function createApp({ store, tries, scheduler, git }) {
     return c.json(lists);
   });
 
+  // Words in a list, optionally filtered by `q` (contains), paged by offset/limit.
   api.get('/lists/:name', async (c) => {
     const name = listName(c.req.param('name'));
-    return c.json({ name, words: await store.readList(name) });
+    const q = (c.req.query('q') ?? '').trim().toLowerCase();
+    const offset = Math.max(0, Number(c.req.query('offset')) || 0);
+    const limit = Math.min(5000, Math.max(1, Number(c.req.query('limit')) || 1000));
+    const words = await store.readList(name);
+    const matches = q ? words.filter((w) => w.includes(q)) : words;
+    return c.json({
+      name,
+      total: words.length,
+      matches: matches.length,
+      offset,
+      words: matches.slice(offset, offset + limit),
+    });
   });
 
-  api.post('/lists/:name', async (c) => {
-    const name = listName(c.req.param('name'));
-    const body = await c.req.json();
-    return c.json({ name, ...(await store.editList(name, { add: wordArray(body.add), remove: wordArray(body.remove) })) });
-  });
-
-  // Pending NYT answers: approve adds them to nyt; reject just drops them.
-  api.get('/pending', async (c) => c.json(await store.readPending()));
-
-  api.post('/pending', async (c) => {
-    const body = await c.req.json();
-    const approve = wordArray(body.approve);
-    const reject = wordArray(body.reject);
-    const done = new Set([...approve, ...reject]);
-    const pending = await store.readPending();
-    const toAdd = approve.filter((w) => pending.some((p) => p.word === w));
-    const nyt = await store.editList('nyt', { add: toAdd });
-    const remaining = pending.filter((p) => !done.has(p.word));
-    await store.writePending(remaining);
-    return c.json({ approved: nyt.added, pending: remaining });
-  });
 
   // Scraping
   api.get('/scrape', async (c) => c.json({ ...(await store.readLog()), ...scheduler.status(), today: nyDate(Date.now()) }));

@@ -17,7 +17,7 @@ const scheduler = createScheduler(createScraper(store), {
   onResult: async (attempt) => {
     await store.appendLog(attempt);
     const summary = attempt.ok
-      ? `saved ${attempt.saved.length} puzzle(s), queued ${attempt.queued.length} word(s)`
+      ? `saved ${attempt.saved.length} puzzle(s)`
       : `failed: ${attempt.error}`;
     console.log(`[scrape ${attempt.reason}] ${summary}; next ${scheduler.status().nextRun}`);
   },

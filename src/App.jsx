@@ -1,5 +1,6 @@
 import { LocationProvider, Router, Route, useLocation } from 'preact-iso';
 import { Play } from './play/Play.jsx';
+import { Lists } from './lists/Lists.jsx';
 
 function Tabs() {
   const { path } = useLocation();
@@ -42,7 +43,7 @@ export function App() {
         <Route path="/" component={Play} />
         <Route path="/play/:date" component={Play} />
         <Route path="/solver" component={() => <Placeholder title="Solver" />} />
-        <Route path="/lists" component={() => <Placeholder title="Lists" />} />
+        <Route path="/lists" component={Lists} />
         <Route default component={NotFound} />
       </Router>
     </LocationProvider>

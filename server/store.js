@@ -10,7 +10,7 @@ const MAX_LOG = 30;
 export function createStore(dataDir, cacheDir) {
   const puzzlesDir = path.join(dataDir, 'puzzles');
   const listsDir = path.join(dataDir, 'lists');
-  const pendingFile = path.join(dataDir, 'pending.json');
+  const addedFile = path.join(dataDir, 'added.json');
   const logFile = path.join(cacheDir, 'scrape-log.json');
 
   async function puzzleDates() {
@@ -64,10 +64,13 @@ export function createStore(dataDir, cacheDir) {
     return { added, removed, count: words.size };
   }
 
-  // Pending: [{ word, date }] new NYT answers awaiting review.
-  const readPending = () => readJson(pendingFile, []);
-  const writePending = (pending) =>
-    writeJson(pendingFile, [...pending].sort((a, b) => a.word.localeCompare(b.word)));
+  // Dates of puzzles already used to update the lists.
+  const readAdded = () => readJson(addedFile, []);
+  async function markAdded(date) {
+    const added = new Set(await readAdded());
+    added.add(date);
+    await writeJson(addedFile, [...added].sort());
+  }
 
   const readLog = () => readJson(logFile, { lastSuccess: null, attempts: [] });
   async function appendLog(attempt) {
@@ -86,8 +89,8 @@ export function createStore(dataDir, cacheDir) {
     readList,
     listMtime,
     editList,
-    readPending,
-    writePending,
+    readAdded,
+    markAdded,
     readLog,
     appendLog,
   };

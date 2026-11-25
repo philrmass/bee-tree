@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { buildTrie } from '../utilities/trie.js';
-import { findWords, compareLists, checkGuess } from '../utilities/solver.js';
+import { findWords, compareLists, checkGuess, isPossibleWord, puzzleUpdate } from '../utilities/solver.js';
 
 const words = [
   'ambient', 'ambit', 'bite', 'mitt', 'mitten', 'tint',
@@ -41,4 +41,25 @@ test('checkGuess reports why a guess fails', () => {
   assert.deepEqual(checkGuess('emit', puzzle), { ok: false, reason: 'not-in-list' });
   assert.deepEqual(checkGuess('bite', puzzle, ['bite']), { ok: false, reason: 'already-found' });
   assert.deepEqual(checkGuess(' Bite ', puzzle), { ok: true, word: 'bite' });
+});
+
+test('isPossibleWord rejects words that can never be answers', () => {
+  assert.equal(isPossibleWord('mitten'), true);
+  assert.equal(isPossibleWord("don't"), false);
+  assert.equal(isPossibleWord('a-ok'), false);
+  assert.equal(isPossibleWord('Paris'), false);
+  assert.equal(isPossibleWord('bit'), false);
+  assert.equal(isPossibleWord('abcdefgh'), false); // 8 different letters
+  assert.equal(isPossibleWord('intimate'), true); // 8 letters, 5 different
+});
+
+test('puzzleUpdate adds missing answers and optionally trims extras', () => {
+  const list = ['ambit', 'bite', 'emit', 'mitt'];
+  const found = ['ambit', 'bite', 'emit', 'mitt']; // what the list solves
+  const answers = ['ambit', 'bite', 'tibia'];
+  assert.deepEqual(puzzleUpdate(list, found, answers, { trim: false }), { add: ['tibia'], remove: [] });
+  assert.deepEqual(puzzleUpdate(new Set(list), found, answers, { trim: true }), {
+    add: ['tibia'],
+    remove: ['emit', 'mitt'],
+  });
 });

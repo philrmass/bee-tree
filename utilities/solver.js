@@ -38,6 +38,23 @@ export function compareLists(answers, found) {
   };
 }
 
+// A word that could ever be a Spelling Bee answer: a–z only, 4+ letters,
+// at most 7 different letters.
+export function isPossibleWord(word) {
+  return /^[a-z]+$/.test(word) && word.length >= MIN_LENGTH && new Set(word).size <= 7;
+}
+
+// How adding a puzzle changes a list: add official answers it lacks; if
+// `trim`, also remove words the list finds for the puzzle that aren't answers.
+export function puzzleUpdate(listWords, found, answers, { trim }) {
+  const has = listWords instanceof Set ? listWords : new Set(listWords);
+  const answerSet = new Set(answers);
+  return {
+    add: answers.filter((word) => !has.has(word)).sort(),
+    remove: trim ? found.filter((word) => !answerSet.has(word)).sort() : [],
+  };
+}
+
 // Check a guess in Play. Returns { ok: true } or { ok: false, reason }.
 export function checkGuess(guess, { center, outer, answers }, found = []) {
   const word = guess.trim().toLowerCase();
