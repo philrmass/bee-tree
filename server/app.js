@@ -1,5 +1,6 @@
 import { Hono } from 'hono';
 import { HTTPException } from 'hono/http-exception';
+import { cors } from 'hono/cors';
 import { findWords, compareLists } from '../utilities/solver.js';
 import { LIST_NAMES, DEFAULT_LIST } from './config.js';
 import { nyDate } from './time.js';
@@ -29,6 +30,8 @@ function puzzleLetters(body) {
 
 export function createApp({ store, tries, scheduler, git }) {
   const app = new Hono();
+  // allow read-only cross-origin requests (e.g. server-status checks)
+  app.use('*', cors({ origin: '*', allowMethods: ['GET', 'HEAD'] }));
   const api = new Hono();
 
   async function requirePuzzle(date) {
