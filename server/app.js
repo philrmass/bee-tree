@@ -1,7 +1,7 @@
 import { Hono } from 'hono';
 import { HTTPException } from 'hono/http-exception';
 import { cors } from 'hono/cors';
-import { findWords, compareLists } from '../utilities/solver.js';
+import { findWords, compareLists, centerVariants } from '../utilities/solver.js';
 import { LIST_NAMES, DEFAULT_LIST } from './config.js';
 import { nyDate } from './time.js';
 import { addPuzzleToLists } from './lists.js';
@@ -85,6 +85,18 @@ export function createApp({ store, tries, scheduler, git }) {
     return c.json({ date: puzzle.date, list: name, ...compareLists(puzzle.answers, await solve(puzzle, name)) });
   });
 
+  // The puzzle with each letter as the center, solved with every list.
+  api.get('/puzzles/:date/centers', async (c) => {
+    const puzzle = await requirePuzzle(c.req.param('date'));
+    const rows = [];
+    for (const variant of centerVariants(puzzle.center, puzzle.outer)) {
+      const words = {};
+      for (const name of LIST_NAMES) words[name] = await solve(variant, name);
+      rows.push({ ...variant, words });
+    }
+    return c.json({ date: puzzle.date, lists: LIST_NAMES, rows });
+  });
+
   // Solver
   api.post('/solve', async (c) => {
     const body = await c.req.json();
@@ -129,7 +141,6 @@ export function createApp({ store, tries, scheduler, git }) {
       words: matches.slice(offset, offset + limit),
     });
   });
-
 
   // Scraping
   api.get('/scrape', async (c) => c.json({ ...(await store.readLog()), ...scheduler.status(), today: nyDate(Date.now()) }));

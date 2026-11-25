@@ -8,23 +8,23 @@ export function formatDate(date) {
 }
 
 // ◀ older · date · newer ▶ — steps through saved puzzles (newest first).
-export function DateNav({ puzzles, date }) {
+export function DateNav({ puzzles, date, base = '/play' }) {
   const index = puzzles?.findIndex((p) => p.date === date) ?? -1;
   const older = index >= 0 ? puzzles[index + 1] : null;
   const newer = index > 0 ? puzzles[index - 1] : null;
 
   return (
     <div class="date-nav">
-      <Arrow to={older} label="Older puzzle">◀</Arrow>
+      <Arrow to={older} base={base} label="Older puzzle">◀</Arrow>
       <span class="date">{date ? formatDate(date) : ' '}</span>
-      <Arrow to={newer} label="Newer puzzle">▶</Arrow>
+      <Arrow to={newer} base={base} label="Newer puzzle">▶</Arrow>
     </div>
   );
 }
 
-function Arrow({ to, label, children }) {
+function Arrow({ to, base, label, children }) {
   return to ? (
-    <a class="arrow" href={`/play/${to.date}`} aria-label={label}>
+    <a class="arrow" href={`${base}/${to.date}`} aria-label={label}>
       {children}
     </a>
   ) : (

@@ -1,24 +1,17 @@
 import { LocationProvider, Router, Route, useLocation } from 'preact-iso';
 import { Play } from './play/Play.jsx';
 import { Lists } from './lists/Lists.jsx';
+import { Stats } from './stats/Stats.jsx';
 
 function Tabs() {
   const { path } = useLocation();
-  const tab = path.startsWith('/solver') ? 'solver' : path.startsWith('/lists') ? 'lists' : 'play';
+  const tab = path.startsWith('/stats') ? 'stats' : path.startsWith('/lists') ? 'lists' : 'play';
   return (
     <nav class="tabs">
       <a href="/" class={tab === 'play' ? 'active' : ''}>Play</a>
-      <a href="/solver" class={tab === 'solver' ? 'active' : ''}>Solver</a>
+      <a href="/stats" class={tab === 'stats' ? 'active' : ''}>Stats</a>
       <a href="/lists" class={tab === 'lists' ? 'active' : ''}>Lists</a>
     </nav>
-  );
-}
-
-function Placeholder({ title }) {
-  return (
-    <main class="page">
-      <p class="muted">{title} is coming next.</p>
-    </main>
   );
 }
 
@@ -42,7 +35,8 @@ export function App() {
       <Router>
         <Route path="/" component={Play} />
         <Route path="/play/:date" component={Play} />
-        <Route path="/solver" component={() => <Placeholder title="Solver" />} />
+        <Route path="/stats" component={Stats} />
+        <Route path="/stats/:date" component={Stats} />
         <Route path="/lists" component={Lists} />
         <Route default component={NotFound} />
       </Router>

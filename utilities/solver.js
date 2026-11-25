@@ -77,3 +77,11 @@ export function checkGuess(guess, { center, outer, answers }, found = []) {
   }
   return { ok: true, word };
 }
+
+// The puzzle with each of its 7 letters as the center: the real center first,
+// then the other six alphabetically. Outer letters are sorted.
+export function centerVariants(center, outer) {
+  const letters = puzzleLetters(center, [...outer]);
+  const variant = (c) => ({ center: c, outer: letters.filter((l) => l !== c).sort() });
+  return [variant(center), ...[...outer].sort().map(variant)];
+}

@@ -497,3 +497,83 @@ button.small {
 .more {
   margin-top: 0.75rem;
 }
+
+/* Stats tab: counts for each center letter */
+.centers {
+  display: grid;
+  grid-template-columns: auto repeat(var(--columns), auto);
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 0.5rem;
+  overflow-x: auto;
+}
+
+.centers > * {
+  padding: 0.15rem 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.centers > .letters {
+  text-align: left;
+}
+
+.centers-head {
+  color: var(--muted);
+}
+
+.centers > .real {
+  padding-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.count {
+  border: 0;
+  border-radius: 4px;
+  background: none;
+  padding: 0.05rem 0.3rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.count.active {
+  background: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.words-panel {
+  margin-top: 1.25rem;
+  scroll-margin-bottom: 1rem;
+}
+
+.words-panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.word-grid .pangram {
+  font-weight: 700;
+}
+
+/* Stats tab: letter combinations, one column per length */
+.runs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 1rem;
+  align-items: start;
+}
+
+.runs-head {
+  color: var(--muted);
+  margin-bottom: 0.25rem;
+}
+
+.run {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}

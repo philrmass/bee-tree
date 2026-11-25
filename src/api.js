@@ -16,6 +16,7 @@ const post = (path, body) =>
 
 export const getPuzzles = () => request('/puzzles');
 export const getPuzzle = (date) => request(`/puzzles/${date}`);
+export const getCenters = (date) => request(`/puzzles/${date}/centers`);
 export const addPuzzle = (date) => post(`/puzzles/${date}/add`);
 
 export const getLists = () => request('/lists');

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { buildTrie } from '../utilities/trie.js';
-import { findWords, compareLists, checkGuess, isPossibleWord, puzzleUpdate } from '../utilities/solver.js';
+import { findWords, compareLists, checkGuess, isPossibleWord, puzzleUpdate, centerVariants } from '../utilities/solver.js';
 
 const words = [
   'ambient', 'ambit', 'bite', 'mitt', 'mitten', 'tint',
@@ -62,4 +62,14 @@ test('puzzleUpdate adds missing answers and optionally trims extras', () => {
     add: ['tibia'],
     remove: ['emit', 'mitt'],
   });
+});
+
+test('centerVariants puts the real center first, then the rest alphabetically', () => {
+  const variants = centerVariants('o', 'tbmrah');
+  assert.deepEqual(
+    variants.map((v) => v.center),
+    ['o', 'a', 'b', 'h', 'm', 'r', 't'],
+  );
+  assert.deepEqual(variants[0].outer, ['a', 'b', 'h', 'm', 'r', 't']);
+  assert.deepEqual(variants[1].outer, ['b', 'h', 'm', 'o', 'r', 't']);
 });
