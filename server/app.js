@@ -5,6 +5,7 @@ import { findWords, compareLists, centerVariants } from '../utilities/solver.js'
 import { LIST_NAMES, DEFAULT_LIST } from './config.js';
 import { nyDate } from './time.js';
 import { addPuzzleToLists } from './lists.js';
+import { totalScore } from '../utilities/score.js';
 
 const LETTER = /^[a-z]$/;
 
@@ -54,6 +55,7 @@ export function createApp({ store, tries, scheduler, git }) {
         center,
         outer,
         count: answers.length,
+        score: totalScore(answers, [center, ...outer]),
         pangrams: pangrams.length,
         added: added.has(date),
       })),
