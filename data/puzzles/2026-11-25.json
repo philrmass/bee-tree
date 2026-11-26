@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-25",
+  "center": "i",
+  "outer": [
+    "b",
+    "k",
+    "m",
+    "n",
+    "p",
+    "u"
+  ],
+  "pangrams": [
+    "bumpkin"
+  ],
+  "answers": [
+    "bikini",
+    "bumpkin",
+    "kink",
+    "mini",
+    "minim",
+    "minimum",
+    "mink",
+    "nimbi",
+    "nubbin",
+    "pimp",
+    "pink",
+    "pinup",
+    "pippin",
+    "pumpkin",
+    "unkink",
+    "unpin"
+  ],
+  "id": 27645,
+  "editor": "Sam Ezersky"
+}

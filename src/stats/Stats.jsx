@@ -4,6 +4,8 @@ import { getPuzzles, getPuzzle, getCenters } from '../api.js';
 import { DateNav } from '../play/DateNav.jsx';
 import { Centers } from './Centers.jsx';
 import { LetterRuns } from './LetterRuns.jsx';
+import { LetterUse } from './LetterUse.jsx';
+import { Histogram } from './Histogram.jsx';
 
 // Route: "/stats" shows the newest puzzle, "/stats/:date" a specific one.
 export function Stats() {
@@ -44,7 +46,21 @@ export function Stats() {
       {!error && puzzles?.length === 0 && <p class="muted">No puzzles saved yet.</p>}
       {!error && !centers && puzzles?.length !== 0 && <p class="muted">Loading…</p>}
       {centers && <Centers key={centers.date} {...centers} />}
+      {puzzle && <LetterUse puzzle={puzzle} />}
+      {puzzle && puzzles && <Trends puzzles={puzzles} date={puzzle.date} />}
       {puzzle && <LetterRuns answers={puzzle.answers} />}
     </main>
+  );
+}
+
+// Word count and max score of this puzzle against all saved puzzles.
+function Trends({ puzzles, date }) {
+  const summary = puzzles.find((p) => p.date === date);
+  if (!summary) return null;
+  return (
+    <>
+      <Histogram title="Words per puzzle" unit="words" values={puzzles.map((p) => p.count)} current={summary.count} />
+      <Histogram title="Max score per puzzle" unit="points" values={puzzles.map((p) => p.score)} current={summary.score} />
+    </>
   );
 }

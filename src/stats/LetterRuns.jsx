@@ -1,7 +1,7 @@
 import { letterRuns, RUN_GROUPS } from '../../utilities/stats.js';
 
-// Letter combinations that appear 2+ times in the official answers,
-// one column per length (2, 3, 4, 5+).
+// Letter combinations (3+ letters) that appear 2+ times in the official
+// answers, one column per length (3, 4, 5+).
 export function LetterRuns({ answers }) {
   const groups = letterRuns(answers);
   return (
