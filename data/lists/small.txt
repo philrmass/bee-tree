@@ -49,6 +49,7 @@ achoo
 achy
 acid
 acids
+acing
 acne
 acoustic
 acquire
@@ -148,6 +149,7 @@ after
 afternoon
 again
 against
+agar
 aged
 agencies
 agency
@@ -158,6 +160,7 @@ ages
 aggregate
 aggressive
 aging
+agrarian
 agree
 agreed
 agreement
@@ -170,6 +173,7 @@ aims
 aioli
 aircraft
 airfare
+airing
 airline
 airlines
 airplane
@@ -301,6 +305,7 @@ angela
 angeles
 angels
 anger
+angina
 angle
 angling
 angola
@@ -313,7 +318,6 @@ animated
 animation
 anime
 anion
-anna
 annal
 anne
 annex
@@ -391,12 +395,15 @@ aquatic
 arab
 arabia
 arabic
+arancini
 arbitrary
 arbitration
 arcade
+arcana
 arch
 architect
 archive
+arcing
 arctic
 ardor
 area
@@ -406,6 +413,7 @@ argentina
 argue
 argued
 arhat
+aria
 arise
 arising
 arizona
@@ -418,12 +426,16 @@ armorial
 armory
 arms
 army
+arnica
 arnold
 aroma
 around
+arraign
+arraigning
 arrange
 arranged
 arrangement
+arranging
 array
 arrest
 arrested
@@ -432,6 +444,7 @@ arrivals
 arrive
 arrived
 arrives
+arriving
 arrow
 arroyo
 arthritis
@@ -553,6 +566,7 @@ available
 avatar
 avenue
 average
+avian
 aviation
 avoid
 avoiding
@@ -996,6 +1010,7 @@ bull
 bullet
 bulletin
 bumper
+bumpkin
 bunch
 bundle
 bunny
@@ -1043,7 +1058,9 @@ cacti
 cadillac
 cafe
 cage
+caging
 caiman
+cairn
 cake
 cakes
 calcium
@@ -1092,7 +1109,9 @@ candidate
 candle
 candles
 candy
+caning
 canna
+canning
 cannon
 canny
 canon
@@ -1114,6 +1133,8 @@ caps
 captain
 capture
 carat
+caravan
+caravanning
 carb
 carbon
 card
@@ -1150,6 +1171,7 @@ cart
 carter
 cartoon
 cartoons
+carving
 casa
 case
 cases
@@ -1190,6 +1212,7 @@ caution
 cava
 cave
 caviar
+caving
 cayman
 cdna
 cedar
@@ -1326,6 +1349,7 @@ churches
 chute
 cialis
 ciao
+cigar
 cigarette
 cilia
 cincinnati
@@ -1717,11 +1741,14 @@ crack
 cradle
 craft
 crafts
-craig
+crag
+crania
+craning
 crap
 crappy
 craps
 crash
+craving
 crawford
 crazy
 cream
@@ -2987,9 +3014,12 @@ futures
 fuzzy
 gabriel
 gadgets
+gaga
 gage
+gagging
 gain
 gained
+gaining
 gains
 gala
 galangal
@@ -3008,12 +3038,13 @@ gaming
 gamma
 gang
 gangbang
+ganging
 ganglia
 gangling
 gaps
 garage
+garaging
 garbage
-garcia
 garden
 gardening
 gardens
@@ -3146,6 +3177,7 @@ governor
 govt
 grab
 grace
+gracing
 grad
 grade
 grades
@@ -3154,8 +3186,10 @@ graduate
 graduated
 graham
 grain
+graining
 grammar
 grams
+gran
 grand
 grande
 granny
@@ -3672,6 +3706,8 @@ influence
 info
 inform
 infrared
+ingrain
+ingraining
 inhaling
 inherited
 inimical
@@ -3785,7 +3821,6 @@ iota
 iowa
 ipaq
 ipecac
-iran
 iraq
 iraqi
 ireland
@@ -3962,6 +3997,7 @@ king
 kingdom
 kings
 kingston
+kink
 kirk
 kiss
 kissing
@@ -4648,6 +4684,7 @@ minister
 ministers
 ministries
 ministry
+mink
 minolta
 minor
 minority
@@ -4833,7 +4870,9 @@ myspace
 mysql
 mystery
 myth
+naan
 nacho
+nagging
 nail
 nailing
 nails
@@ -4843,7 +4882,9 @@ named
 namely
 names
 namespace
+nana
 naples
+narc
 narrative
 narrow
 nasa
@@ -4913,7 +4954,7 @@ newspapers
 newton
 next
 nextel
-niagara
+niacin
 nicaragua
 nice
 nick
@@ -4987,6 +5028,7 @@ novelty
 november
 nowhere
 ntsc
+nubbin
 nuclear
 nude
 nudging
@@ -5425,16 +5467,19 @@ pillion
 pillow
 pills
 pilot
+pimp
 pine
 ping
 pinion
 pink
 pins
+pinup
 pioneer
 pipe
 piped
 pipeline
 pipes
+pippin
 piracy
 pirates
 piss
@@ -5761,6 +5806,7 @@ pulling
 pulse
 puma
 pump
+pumpkin
 pumps
 punch
 punk
@@ -5827,13 +5873,17 @@ radio
 radios
 radius
 raft
+raga
 rage
+ragging
+raging
 raid
 rail
 railroad
 railway
 rain
 rainbow
+raining
 raise
 raised
 raises
@@ -5850,10 +5900,12 @@ ranch
 rand
 random
 randy
+rang
 range
 rangers
 ranges
 ranging
+rani
 rank
 ranked
 ranking
@@ -5865,6 +5917,7 @@ rapidly
 rapids
 rare
 rarely
+raring
 ratatat
 rate
 rated
@@ -5876,6 +5929,8 @@ ratio
 rational
 ratios
 rats
+ravaging
+raving
 raymond
 rays
 reach
@@ -7592,12 +7647,14 @@ unity
 univ
 universe
 unix
+unkink
 unknown
 unlatch
 unless
 unlike
 unlikely
 unlock
+unpin
 unsigned
 until
 untitled
@@ -7643,6 +7700,7 @@ vacation
 vaccine
 vacuum
 vagina
+vain
 vale
 valentine
 valid
@@ -7703,7 +7761,6 @@ vessels
 veteran
 veterans
 vetted
-viagra
 vial
 vibrator
 vicar
@@ -7743,7 +7800,6 @@ violent
 violin
 viral
 virgin
-virginia
 virtual
 virtue
 virus

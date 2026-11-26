@@ -692,10 +692,7 @@ acacatechin
 acacatechol
 acacetin
 acacia
-acacian
 acacias
-acaciin
-acacin
 acacine
 acad
 academe
@@ -769,7 +766,6 @@ acarapis
 acardia
 acardiac
 acardite
-acarian
 acariasis
 acariatre
 acaricidal
@@ -783,7 +779,6 @@ acaridea
 acaridean
 acarids
 acariform
-acarina
 acarine
 acarines
 acarinosis
@@ -898,7 +893,6 @@ accidie
 accidies
 accinge
 accinged
-accinging
 accipient
 accipiter
 accipitral
@@ -1305,7 +1299,6 @@ acilius
 acinaces
 acinacious
 acinacity
-acinar
 acinary
 acineta
 acinetae
@@ -1316,8 +1309,6 @@ acinetic
 acinetina
 acinetinan
 acing
-acini
-acinic
 acinose
 acinous
 acinuni
@@ -1443,7 +1434,6 @@ acquittal
 acrab
 acraein
 acraeinae
-acrania
 acranial
 acraniate
 acrasia
@@ -2939,7 +2929,6 @@ agad
 agada
 agade
 agadic
-agag
 again
 againbuy
 againsay
@@ -2998,12 +2987,8 @@ agapetid
 agapetidae
 agaphite
 agar
-agaric
 agaricaceae
-agaricic
-agaricin
 agaricine
-agaricinic
 agaricoid
 agarics
 agaricus
@@ -3186,7 +3171,6 @@ agileness
 agilities
 agility
 agillawood
-agin
 aging
 agings
 aginner
@@ -3339,7 +3323,6 @@ agoutis
 agouty
 agpaite
 agpaitic
-agra
 agrace
 agrafe
 agrafes
@@ -3351,19 +3334,16 @@ agral
 agramed
 agrammatica
 agrammatism
-agrania
 agrapha
 agraphia
 agraphias
 agraphic
-agraria
 agrarian
 agrarianism
 agrarianize
 agrarianly
 agrarians
 agrauleum
-agravic
 agre
 agreat
 agree
@@ -3383,15 +3363,12 @@ agrement
 agrest
 agrestal
 agrestis
-agria
 agrias
-agric
 agricere
 agrief
 agrilus
 agrimonia
 agrimotor
-agrin
 agriological
 agriology
 agrionia
@@ -3582,10 +3559,8 @@ ainu
 ainus
 aioli
 aiolis
-aira
 airable
 airampo
-airan
 airbag
 airbags
 airbill
@@ -3667,7 +3642,6 @@ airmark
 airmarker
 airmass
 airmen
-airn
 airns
 airometer
 airpark
@@ -3753,7 +3727,6 @@ aits
 aitutakian
 aiver
 aivers
-aivr
 aiwain
 aiwan
 aizle
@@ -6171,7 +6144,6 @@ anacampsis
 anacamptic
 anacanthine
 anacanthini
-anacara
 anacard
 anacardiaceae
 anacardic
@@ -6339,8 +6311,6 @@ anamnionic
 anamniota
 anamniote
 anamniotic
-anan
-anana
 ananaplas
 ananaples
 ananas
@@ -6725,16 +6695,13 @@ anew
 anezeh
 anfeeld
 anfract
-anga
 angakok
 angakoks
 angakut
 angami
-angara
 angareb
 angareeb
 angarep
-angaria
 angarias
 angariation
 angaries
@@ -6782,7 +6749,6 @@ angers
 angetenar
 angevin
 angeyok
-angia
 angico
 angie
 angiitis
@@ -6911,7 +6877,6 @@ anhingas
 anhistic
 anhungry
 anhyd
-anicca
 anice
 aniconic
 aniconism
@@ -7072,7 +7037,6 @@ anlases
 anlaut
 anlaute
 anlet
-anna
 annabel
 annal
 annale
@@ -7142,7 +7106,6 @@ annihilate
 annihilating
 annihilation
 annist
-anniv
 anniversaries
 anniversariness
 anniverse
@@ -9059,8 +9022,6 @@ arable
 arables
 arabs
 araby
-aracana
-aracanga
 arace
 araceae
 araceous
@@ -9087,7 +9048,6 @@ aragonian
 araguane
 araguato
 araignee
-arain
 arains
 araire
 araise
@@ -9114,6 +9074,7 @@ araminta
 aramis
 aramitess
 aramus
+arancini
 aranea
 araneae
 araneid
@@ -9126,7 +9087,6 @@ araneina
 araneoidea
 araneose
 araneous
-aranga
 arango
 arangoes
 arank
@@ -9140,7 +9100,6 @@ arapaimas
 araponga
 arapunga
 araquaju
-araracanga
 ararauna
 arariba
 araroba
@@ -9576,7 +9535,6 @@ argalas
 argali
 argalis
 argals
-argan
 argand
 argans
 argante
@@ -9619,7 +9577,6 @@ argillite
 argillitic
 argilloid
 argils
-argin
 arginase
 arginases
 argine
@@ -9689,8 +9646,6 @@ arhauaco
 arhythmia
 aria
 ariadne
-arian
-ariana
 arianism
 arianist
 arianistic
@@ -9701,8 +9656,6 @@ arianrhod
 arias
 aribin
 aribine
-arician
-aricin
 aricine
 arid
 arided
@@ -9943,7 +9896,6 @@ armures
 army
 armyworm
 armyworms
-arna
 arnatta
 arnatto
 arnattos
@@ -9954,7 +9906,6 @@ arneb
 arnebia
 arnee
 arnement
-arni
 arnica
 arnicas
 arnold
@@ -10084,7 +10035,6 @@ arrhinia
 arrhizal
 arrhythmia
 arrhythmy
-arri
 arriage
 arriba
 arribadas
@@ -12420,7 +12370,6 @@ avalent
 avalon
 avalvular
 avance
-avania
 avanious
 avant
 avantage
@@ -12428,11 +12377,9 @@ avanters
 avanti
 avantlay
 avanyu
-avar
 avaradrano
 avaram
 avaremotemo
-avarian
 avarice
 avarices
 avarish
@@ -23393,7 +23340,6 @@ buhls
 buhr
 buhrmill
 buhrs
-buibui
 buick
 buicks
 build
@@ -23633,7 +23579,6 @@ bumfeg
 bumfs
 bumfuzzle
 bumicky
-bumkin
 bumkins
 bummack
 bummalo
@@ -24972,7 +24917,6 @@ caginesses
 caging
 cagit
 cagmag
-cagn
 cagot
 cagoule
 cagui
@@ -25006,11 +24950,7 @@ caiman
 caimans
 caimitillo
 caimito
-cain
-caingang
-caingin
 caingua
-cainian
 cainish
 cainism
 cainite
@@ -25791,17 +25731,13 @@ canals
 canamary
 canamo
 cananaean
-cananga
 canangium
 canape
 canapes
 canapina
 canard
 canards
-canari
-canarian
 canaries
-canarin
 canarine
 canarium
 canarsee
@@ -25853,7 +25789,6 @@ canchito
 cancion
 cancionero
 canciones
-cancri
 cancrid
 cancrine
 cancrinite
@@ -25944,9 +25879,7 @@ canewise
 canezou
 canful
 canfuls
-cangan
 cangenet
-cangia
 cangle
 cangler
 cangue
@@ -26535,7 +26468,6 @@ caradoc
 carafe
 carafes
 carafon
-caragana
 caraganas
 carageen
 carageens
@@ -26560,11 +26492,8 @@ caranda
 carandas
 caranday
 carane
-caranga
 carangid
-carangin
 carangus
-caranna
 caranx
 carapace
 carapaced
@@ -26593,7 +26522,6 @@ caravan
 caravaned
 caravaneer
 caravaner
-caravaning
 caravanned
 caravanner
 caravanning
@@ -26660,7 +26588,6 @@ carbyl
 carcajou
 carcajous
 carcake
-carcan
 carcanet
 carcaneted
 carcanets
@@ -26815,7 +26742,6 @@ carfour
 carfuffle
 carful
 carfuls
-carga
 cargador
 cargason
 cargo
@@ -26829,7 +26755,6 @@ cariacine
 cariacus
 cariama
 cariamae
-carian
 carib
 caribal
 cariban
@@ -26862,16 +26787,13 @@ caries
 cariform
 carijona
 carillon
-carina
 carinae
 carinal
-carinaria
 carinas
 carinatae
 carinate
 carination
 caring
-cariniana
 carinthian
 carinula
 carioca
@@ -26880,7 +26802,6 @@ cariole
 carious
 caripeta
 caripuna
-caririan
 carisa
 carissa
 caritas
@@ -26935,16 +26856,12 @@ carmetta
 carmine
 carminic
 carmot
-carn
-carnac
-carnacian
 carnage
 carnaged
 carnages
 carnal
 carnally
 carnalness
-carnaria
 carnary
 carnassial
 carnate
@@ -26965,7 +26882,6 @@ carnets
 carney
 carneyed
 carneys
-carnic
 carnie
 carnied
 carnies
@@ -27084,7 +27000,6 @@ carrageen
 carrageenan
 carrageenin
 carragheen
-carraran
 carraway
 carraways
 carreau
@@ -28163,8 +28078,6 @@ cavilled
 caviller
 cavilling
 cavils
-cavin
-cavina
 caving
 cavings
 cavish
@@ -37502,7 +37415,6 @@ craftly
 crafts
 crafty
 crag
-craggan
 cragged
 craggier
 craggily
@@ -37512,9 +37424,7 @@ cragsman
 cragwork
 craichy
 craie
-craig
 craik
-crain
 craisey
 craizey
 crajuru
@@ -37553,7 +37463,6 @@ crampoon
 cramps
 crampy
 crams
-cran
 cranage
 cranberry
 crance
@@ -37574,17 +37483,13 @@ cranesman
 cranet
 craneway
 craney
-crang
 crania
 craniad
 cranial
 cranially
-cranian
 craniata
 craniate
-cranic
 craning
-craninia
 cranioid
 craniol
 craniom
@@ -37608,7 +37513,6 @@ crankum
 cranky
 crannage
 crannel
-crannia
 crannied
 crannies
 crannock
@@ -63985,7 +63889,6 @@ gaggle
 gaggled
 gaggler
 gaggles
-gaging
 gagman
 gagmen
 gagor
@@ -63997,7 +63900,6 @@ gagtooth
 gagwriter
 gahnite
 gahrwali
-gaia
 gaiassa
 gaieties
 gaiety
@@ -64013,7 +63915,6 @@ gained
 gainer
 gainers
 gainful
-gaingiving
 gaining
 gainings
 gainless
@@ -64034,7 +63935,6 @@ gainstand
 gainturn
 gaintwist
 gainward
-gair
 gairfish
 gaisling
 gaist
@@ -64517,9 +64417,6 @@ ganefs
 ganev
 ganevs
 gang
-ganga
-gangan
-gangava
 gangbang
 gangboard
 gangdom
@@ -64530,7 +64427,6 @@ gangerel
 gangers
 ganges
 gangetic
-ganggang
 ganging
 gangion
 gangism
@@ -64657,7 +64553,6 @@ gapping
 gappy
 gaps
 gapy
-gara
 garabato
 garad
 garage
@@ -64667,12 +64562,10 @@ garages
 garaging
 garamond
 garance
-garancin
 garancine
 garapata
 garapato
 garau
-garava
 garavance
 garawi
 garb
@@ -64699,7 +64592,6 @@ garboil
 garbs
 garbure
 garce
-garcinia
 garcon
 garcons
 gard
@@ -64728,7 +64620,6 @@ gareth
 garetta
 garewaite
 garfish
-garg
 gargalize
 garganey
 garganeys
@@ -64767,7 +64658,6 @@ garlics
 garlion
 garlopa
 garment
-garn
 garnel
 garner
 garnerage
@@ -64780,7 +64670,6 @@ garnets
 garnett
 garnetter
 garnetz
-garni
 garnice
 garniec
 garnierite
@@ -64805,7 +64694,6 @@ garotting
 garous
 garpike
 garrafa
-garran
 garrat
 garred
 garret
@@ -64816,7 +64704,6 @@ garrets
 garrick
 garridge
 garrigue
-garring
 garrison
 garrisonian
 garrisoning
@@ -65131,7 +65018,6 @@ gavelling
 gavelman
 gavelmen
 gavels
-gavia
 gaviae
 gavial
 gavialis
@@ -66096,7 +65982,6 @@ giaour
 giaours
 giardia
 giardiasis
-giarra
 giarre
 gibaro
 gibbals
@@ -66204,7 +66089,6 @@ giftlike
 giftling
 gifts
 gifture
-giga
 gigabit
 gigabits
 gigabyte
@@ -66412,7 +66296,6 @@ gingery
 gingham
 ginghams
 gingilis
-gingiva
 gingivae
 gingival
 gingivalgia
@@ -67333,16 +67216,13 @@ gnabble
 gnaeus
 gnamma
 gnapweed
-gnar
 gnarl
 gnarled
 gnarlier
 gnarling
 gnarls
 gnarly
-gnarr
 gnarred
-gnarring
 gnarrs
 gnars
 gnash
@@ -68378,7 +68258,6 @@ gragers
 graham
 grahamism
 grahams
-graian
 grail
 grailer
 grailing
@@ -68448,7 +68327,7 @@ gramps
 grampus
 grams
 gramy
-grana
+gran
 granada
 granadilla
 granadine
@@ -68680,7 +68559,6 @@ gratulate
 graunt
 graupel
 graustark
-grav
 gravamem
 gravamen
 gravamina
@@ -68711,7 +68589,6 @@ gravest
 gravette
 graveward
 graveyard
-gravic
 gravid
 gravida
 gravidae
@@ -68722,7 +68599,6 @@ gravific
 gravigrada
 gravigrade
 gravilea
-graving
 gravitate
 gravitater
 gravitating
@@ -69267,7 +69143,6 @@ grittle
 gritty
 grivet
 grivets
-grivna
 grivois
 grivoise
 grizard
@@ -76727,7 +76602,6 @@ ibycus
 icacinaceae
 icaco
 icacorea
-icarian
 icarianism
 icarus
 icasm
@@ -77097,7 +76971,6 @@ ifreal
 ifree
 ifugao
 igad
-igara
 igarape
 igasuric
 igbira
@@ -77118,7 +76991,6 @@ ignatian
 ignatianist
 ignatias
 ignatius
-ignavia
 ignaw
 igneous
 ignescence
@@ -77524,7 +77396,6 @@ imbrued
 imbrues
 imbruing
 imbrute
-imbu
 imbue
 imbued
 imbuement
@@ -77690,7 +77561,6 @@ immotive
 immound
 immov
 immoved
-immun
 immund
 immundity
 immune
@@ -77860,7 +77730,6 @@ impeyan
 impf
 imphee
 imphees
-impi
 impierce
 impies
 impieties
@@ -78066,7 +77935,6 @@ inaner
 inaners
 inanes
 inanest
-inanga
 inangular
 inanimate
 inanimated
@@ -78147,16 +78015,12 @@ inbursts
 inbush
 inby
 inbye
-inca
 incage
 incaged
 incages
-incaging
-incaic
 incalescence
 incalving
 incamp
-incan
 incandent
 incandesce
 incandesced
@@ -78176,7 +78040,6 @@ incapacitation
 incapacity
 incarcerate
 incarial
-incarn
 incarnadine
 incarnadined
 incarnadining
@@ -78421,7 +78284,6 @@ incorrect
 incorrection
 incoup
 incr
-incra
 incrash
 increase
 increaser
@@ -79154,9 +79016,6 @@ infusionism
 infusionist
 infusions
 infusive
-inga
-ingan
-ingang
 ingangs
 ingannation
 ingate
@@ -80793,7 +80652,6 @@ invalided
 invaliding
 invalidly
 invalids
-invar
 invariance
 invariancy
 invariant
@@ -81108,11 +80966,7 @@ ipso
 iracund
 irade
 irades
-iran
-irani
-iranian
 iranians
-iranic
 iranism
 iranist
 iranize
@@ -81150,7 +81004,6 @@ iresine
 irfan
 irgun
 irgunist
-irian
 iriartea
 iriarteaceae
 iricism
@@ -81404,7 +81257,6 @@ irruptive
 irrupts
 irvin
 irving
-irvingiana
 irvingism
 irvingite
 irwin
@@ -82030,7 +81882,6 @@ iulidan
 iulus
 iurant
 iuus
-ivan
 ivied
 ivies
 ivin
@@ -85435,12 +85286,9 @@ kikatsik
 kikawaeo
 kike
 kikes
-kiki
-kikki
 kikoi
 kikongo
 kikori
-kiku
 kikuel
 kikumon
 kikuyu
@@ -85657,7 +85505,6 @@ kingweed
 kingwood
 kinhin
 kinic
-kinin
 kininogen
 kininogenic
 kinins
@@ -85687,7 +85534,6 @@ kinnikinic
 kinnikinick
 kinnikinnic
 kinnikinnick
-kinnikinnik
 kinnor
 kino
 kinology
@@ -85733,7 +85579,6 @@ kippered
 kipperer
 kippering
 kippers
-kippin
 kipping
 kippur
 kippy
@@ -86774,10 +86619,8 @@ kuichua
 kujawiak
 kukang
 kukeri
-kuki
 kukoline
 kukri
-kukui
 kukulcan
 kukupa
 kukuruku
@@ -86805,7 +86648,6 @@ kulturs
 kuman
 kumara
 kumari
-kumbi
 kumbuk
 kumhar
 kumis
@@ -86814,7 +86656,6 @@ kumisses
 kumkum
 kummel
 kummels
-kumni
 kumquat
 kumquats
 kumrah
@@ -86823,7 +86664,6 @@ kumyk
 kumys
 kumyses
 kunai
-kunbi
 kundalini
 kundry
 kuneste
@@ -97817,7 +97657,6 @@ mike
 miked
 mikes
 mikey
-miki
 mikie
 miking
 mikir
@@ -98187,7 +98026,6 @@ mimosite
 mimotannic
 mimotype
 mimotypic
-mimp
 mimpei
 mimsey
 mimsy
@@ -98207,7 +98045,6 @@ minas
 minatnrial
 minaway
 minbar
-minbu
 mince
 minced
 mincemeat
@@ -98299,7 +98136,6 @@ minifies
 minify
 minifying
 miniken
-minikin
 minikinly
 minikins
 minim
@@ -98370,7 +98206,6 @@ ministries
 ministry
 minisub
 minitari
-minium
 miniums
 miniver
 minivers
@@ -98431,7 +98266,6 @@ minuends
 minuet
 minuetic
 minuets
-minum
 minunet
 minus
 minuses
@@ -99466,7 +99300,6 @@ mnestic
 mnevis
 mniaceae
 mnioid
-mnium
 moabite
 moabitic
 moan
@@ -102557,6 +102390,7 @@ myzostome
 myzostomous
 mzee
 mzungu
+naan
 naassenes
 nabak
 nabal
@@ -102634,23 +102468,17 @@ naething
 naevi
 naevoid
 naevus
-naga
 nagaika
 nagami
-nagana
 naganas
-nagara
-nagari
 nagasaki
 nagatelite
 nagel
-naggar
 nagged
 nagger
 naggers
 naggier
 naggiest
-naggin
 nagging
 naggingly
 naggingness
@@ -102659,11 +102487,9 @@ naggle
 naggly
 naggy
 naght
-naging
 nagkassar
 nagmaal
 nagman
-nagnag
 nagor
 nags
 nagsman
@@ -102687,7 +102513,6 @@ naid
 naif
 naifly
 naifs
-naig
 naigie
 naigue
 naik
@@ -102717,8 +102542,6 @@ nainsook
 nainsooks
 naipkin
 naique
-nair
-naira
 nairobi
 nairy
 nais
@@ -102809,8 +102632,6 @@ nandu
 nanduti
 nane
 nanes
-nanga
-nangca
 nanger
 nangka
 nanigo
@@ -102979,21 +102800,16 @@ naresh
 nargil
 nargile
 narial
-naric
-narica
 naricorn
 nariform
 narine
 naringenin
-naringin
 naris
 nark
 narked
 narking
 narks
 narky
-narr
-narra
 narraganset
 narrante
 narras
@@ -103280,13 +103096,10 @@ navalese
 navalism
 navalist
 navally
-navar
 navarch
 navarchy
 navarho
-navarin
 navarrese
-navarrian
 navars
 nave
 navel
@@ -103303,11 +103116,9 @@ navette
 navettes
 navety
 navew
-navi
 navicella
 navicula
 navies
-navig
 navigant
 navigate
 navigating
@@ -104226,7 +104037,6 @@ nexum
 nexus
 nexuses
 neyanda
-ngai
 ngaio
 ngapi
 ngoko
@@ -104237,9 +104047,6 @@ nheengatu
 niacin
 niacinamide
 niacins
-niagara
-niagaran
-niagra
 niais
 niaiserie
 nialamide
@@ -104485,7 +104292,6 @@ nigglingly
 nigglings
 niggly
 niggot
-niggra
 niggun
 nigh
 nighed
@@ -104696,7 +104502,6 @@ nirls
 nirmanakaya
 nirvana
 nirvanas
-nirvanic
 nisaean
 nisan
 nisberry
@@ -107242,7 +107047,6 @@ numis
 numismatist
 numismatists
 nummary
-nummi
 nummiform
 nummular
 nummularia
@@ -107278,7 +107082,6 @@ nundinal
 nundination
 nundine
 nunhood
-nunki
 nunks
 nunky
 nunlet
@@ -107289,7 +107092,6 @@ nunnation
 nunned
 nunneries
 nunnery
-nunni
 nunnify
 nunning
 nunnish
@@ -118707,7 +118509,6 @@ pikers
 pikes
 piketail
 pikey
-piki
 piking
 pikle
 piky
@@ -119295,7 +119096,6 @@ pipistrel
 pipistrelle
 pipit
 pipits
-pipkin
 pipkinet
 pipkins
 pipless
@@ -119611,7 +119411,6 @@ pitylus
 pityproof
 pityriasis
 pityroid
-piupiu
 piuri
 pius
 piute
@@ -126014,7 +125813,6 @@ punkeys
 punkie
 punkier
 punkies
-punkin
 punkiness
 punkins
 punkish
@@ -127565,7 +127363,6 @@ qurti
 qurush
 qurushes
 raadzaal
-raanan
 raasch
 raash
 rabal
@@ -127942,7 +127739,6 @@ raggled
 raggles
 raggy
 raghu
-ragi
 raging
 ragingly
 ragis
@@ -127952,7 +127748,6 @@ raglet
 raglin
 ragman
 ragmen
-ragnar
 ragnarok
 ragondin
 ragout
@@ -127979,7 +127774,6 @@ rahdar
 rahdaree
 rahdari
 rahul
-raia
 raiae
 raias
 raid
@@ -128291,11 +128085,8 @@ ramulus
 ramus
 ramusi
 ramverse
-rana
 ranal
 ranales
-ranaria
-ranarian
 ranarium
 ranatra
 rance
@@ -128389,10 +128180,8 @@ ranid
 ranidae
 ranids
 raniform
-ranina
 raninae
 ranine
-raninian
 ranis
 ranjit
 rank
@@ -128418,7 +128207,6 @@ ranks
 ranksman
 ranksmen
 ranli
-rann
 rannel
 rannigal
 ranny
@@ -128877,8 +128665,6 @@ raver
 ravers
 ravery
 raves
-ravi
-ravin
 ravinate
 ravindran
 ravine
@@ -128887,7 +128673,6 @@ ravines
 raviney
 raving
 ravings
-ravining
 ravins
 ravioli
 raviolis
@@ -135174,7 +134959,6 @@ rifting
 riftless
 rifts
 rifty
-riga
 rigadig
 rigadon
 rigadoon
@@ -135593,7 +135377,6 @@ ritziest
 ritzily
 ritziness
 ritzy
-riva
 rivage
 rivages
 rival
@@ -135660,10 +135443,8 @@ riviera
 rivieras
 riviere
 rivieres
-rivina
 riving
 rivingly
-rivinian
 rivo
 rivose
 rivularia
@@ -168566,7 +168347,6 @@ uberties
 uberty
 ubieties
 ubiety
-ubii
 ubiquarian
 ubique
 ubiquious
@@ -171641,7 +171421,6 @@ uninjuring
 uninjurious
 uninked
 uninlaid
-uninn
 uninnate
 uninnateness
 uninnocence
@@ -171868,7 +171647,6 @@ unkill
 unkilled
 unkilling
 unkilned
-unkin
 unkind
 unkinder
 unkindled
@@ -175698,7 +175476,6 @@ vacation
 vacatur
 vaccenic
 vaccicide
-vaccina
 vaccinal
 vaccinas
 vaccinate
@@ -175708,7 +175485,6 @@ vaccine
 vaccinee
 vaccinella
 vaccines
-vaccinia
 vacciniaceae
 vaccinial
 vaccinias
@@ -175757,7 +175533,6 @@ vagally
 vagancy
 vagant
 vaganti
-vagarian
 vagaries
 vagarish
 vagarist
@@ -175766,7 +175541,6 @@ vagary
 vagas
 vagation
 vage
-vagi
 vagient
 vagile
 vagility
@@ -175819,8 +175593,6 @@ vainful
 vainly
 vainness
 vainnesses
-vair
-vairagi
 vaire
 vairee
 vairs
@@ -176054,7 +175826,6 @@ vanes
 vanessa
 vanessian
 vanfoss
-vang
 vangee
 vangeli
 vanglo
@@ -176075,7 +175846,6 @@ vanillism
 vanillon
 vanilloyl
 vanillyl
-vanir
 vanish
 vanishes
 vanishing
@@ -176089,14 +175859,11 @@ vanload
 vanman
 vanmen
 vanmost
-vannai
 vanned
 vanner
 vannerman
 vannermen
 vannet
-vannic
-vanning
 vannus
 vans
 vansire
@@ -176131,14 +175898,9 @@ vappa
 vapulary
 vapulate
 vaquero
-vara
 varactor
 varahan
-varan
 varanger
-varangi
-varangian
-varanian
 varanid
 varanidae
 varanoid
@@ -176153,12 +175915,9 @@ varech
 vareheaded
 varella
 vareuse
-vari
-varia
 variable
 variably
 variadic
-variag
 variance
 variancy
 variant
@@ -176192,7 +175951,6 @@ variety
 variform
 varify
 varindor
-varing
 vario
 variola
 variolar
@@ -176218,7 +175976,6 @@ varletto
 varmannie
 varment
 varmint
-varna
 varnas
 varnashrama
 varnish
@@ -177295,7 +177052,6 @@ vicarage
 vicarate
 vicaress
 vicarial
-vicarian
 vicariate
 vicariism
 vicarius
@@ -177314,7 +177070,6 @@ vicety
 vichies
 vichy
 vichyite
-vicianin
 vicilin
 vicinage
 vicinal
@@ -177420,12 +177175,10 @@ viewsome
 viewster
 viewy
 vifda
-viga
 vigas
 vigesimo
 vigesimos
 viggle
-vigia
 vigias
 vigil
 vigilant
@@ -177548,7 +177301,6 @@ vimina
 viminal
 vimpa
 vims
-vina
 vinaconic
 vinage
 vinagron
@@ -177561,7 +177313,6 @@ vinas
 vinasse
 vinasses
 vinata
-vinca
 vincas
 vince
 vincent
@@ -177718,9 +177469,6 @@ vipery
 vipolitic
 vips
 viqueen
-vira
-viragin
-viraginian
 virago
 viragos
 viral
@@ -177742,7 +177490,6 @@ vireonine
 vireos
 vires
 virescence
-virga
 virgal
 virgas
 virgate
@@ -177755,8 +177502,6 @@ virgilian
 virgilism
 virgin
 virginal
-virginia
-virginian
 virginians
 virginid
 virginitis
@@ -178052,13 +177797,10 @@ vivandiere
 vivandire
 vivant
 vivants
-vivaria
 vivaries
-vivariia
 vivariiums
 vivarium
 vivariums
-vivarvaria
 vivary
 vivas
 vivax
@@ -178077,7 +177819,6 @@ viverrine
 vivers
 vives
 viveur
-vivian
 vivianite
 vivid
 vivider

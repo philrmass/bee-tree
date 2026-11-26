@@ -267,6 +267,7 @@ acidity
 acidly
 acidrain
 acids
+acing
 acme
 acne
 acolyte
@@ -612,7 +613,6 @@ against
 agakhan
 agape
 agar
-agaragar
 agave
 agaves
 aged
@@ -1228,7 +1228,6 @@ ankle
 ankles
 anklet
 anklets
-anna
 annal
 annals
 anneal
@@ -1551,6 +1550,7 @@ arabs
 arachnid
 arak
 araks
+arancini
 arbiter
 arbiters
 arbitrage
@@ -1668,6 +1668,7 @@ armpits
 armrest
 arms
 army
+arnica
 aroma
 aromas
 aromatic
@@ -1678,6 +1679,8 @@ arousals
 arouse
 aroused
 arouses
+arraign
+arraigning
 arrange
 arrangeable
 arranged
@@ -4687,7 +4690,6 @@ cagy
 cahoots
 caiman
 caimans
-cain
 cairn
 cairns
 cairo
@@ -7294,11 +7296,11 @@ cramped
 crampon
 cramps
 crams
-cran
 cranberry
 crane
 craned
 cranes
+crania
 cranial
 craning
 cranium
@@ -13586,7 +13588,6 @@ gagged
 gagging
 gaggle
 gaggled
-gaging
 gags
 gagster
 gaiety
@@ -13711,6 +13712,7 @@ gaps
 garage
 garaged
 garages
+garaging
 garb
 garbage
 garbed
@@ -14463,6 +14465,7 @@ grain
 grained
 grainier
 graininess
+graining
 grains
 grainy
 gram
@@ -14473,6 +14476,7 @@ grammars
 gramme
 grammes
 grams
+gran
 granaries
 granary
 grand
@@ -16573,7 +16577,6 @@ imperilled
 imperium
 impertinent
 impetus
-impi
 impiety
 impinge
 impinged
@@ -16662,7 +16665,6 @@ inbound
 inbred
 inbreeding
 inbuilt
-inca
 incandescence
 incant
 incantation
@@ -16954,7 +16956,9 @@ ingestion
 ingoing
 ingot
 ingots
+ingrain
 ingrained
+ingraining
 ingrate
 ingratiate
 ingratiating
@@ -17459,8 +17463,6 @@ ions
 iota
 iotas
 ipecac
-iran
-iranian
 iranians
 iraq
 iraqi
@@ -21458,6 +21460,7 @@ myth
 mythic
 mythology
 myths
+naan
 nabbed
 nabs
 nacho
@@ -21493,6 +21496,7 @@ namesake
 namesakes
 naming
 namings
+nana
 nannies
 nanny
 nanometre
@@ -21510,6 +21514,7 @@ nappies
 napping
 nappy
 naps
+narc
 narcissism
 narcissistic
 narcosis
@@ -21778,7 +21783,7 @@ next
 ngoing
 nguni
 ngunis
-niagara
+niacin
 nibble
 nibbled
 nibbler
@@ -22031,6 +22036,7 @@ nozzle
 nozzles
 nuance
 nuances
+nubbin
 nuclear
 nuclei
 nucleic
@@ -25841,12 +25847,14 @@ rafting
 raftman
 rafts
 raftsman
+raga
 ragbag
 rage
 raged
 rages
 ragged
 raggedly
+ragging
 raging
 ragout
 rags
@@ -35310,6 +35318,7 @@ unkept
 unkind
 unkindly
 unkindness
+unkink
 unknowing
 unknown
 unknowns
@@ -35381,6 +35390,7 @@ unpaved
 unpeeled
 unpick
 unpicking
+unpin
 unplanned
 unplug
 unplugged
@@ -35737,6 +35747,7 @@ vacuum
 vacuums
 vaduz
 vagabond
+vagina
 vagrancy
 vagrant
 vagrants
@@ -36105,7 +36116,6 @@ viral
 virgil
 virgin
 virginal
-virginia
 virginity
 virgins
 virile
